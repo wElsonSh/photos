@@ -1,0 +1,17 @@
+# Зависимости
+node_modules/
+.pnpm-store/
+
+# Сборки Next.js и Vite
+.next/
+out/
+dist/
+build/
+
+# Переменные окружения (пароли и ключи)
+.env
+.env*.local
+
+# Логи и системные файлы
+*.log
+.DS_Store
