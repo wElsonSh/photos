@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev:public": "pnpm --filter public-app dev",
-    "dev:local": "pnpm --filter local-app dev"
+    "dev:local": "pnpm --filter local-app dev",
+    "dev": "pnpm --parallel -r dev"
   },
   "keywords": [],
   "author": "",
